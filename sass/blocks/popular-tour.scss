@@ -1,0 +1,46 @@
+.popular-tour {
+
+  &__inner {
+    padding-top: 105px;
+
+  }
+
+  &__title {
+    text-align: center;
+
+  }
+
+  &__slider {
+    padding-top: 80px;
+
+  }
+
+  &__slides {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  &__slide {
+  }
+
+  &__card {
+
+  }
+
+  &__slider-nav {
+
+  }
+
+  &__slider-nav-item {
+
+  }
+
+  &__slider-nav-button {
+
+  }
+}
