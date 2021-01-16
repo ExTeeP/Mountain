@@ -45,11 +45,11 @@ body {
   min-width: 320px;
   margin: 0;
   padding: 0;
-  font-family: "Panton", sans-serif;
-  font-size: 14px;
-  line-height: 25px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: normal;
-  color: #061B28;
+  color: #061b28;
   background-color: #ffffff; }
 
 img {
@@ -73,5 +73,263 @@ a {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden; }
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 115%; }
+
+.page-body__main {
+  margin-top: 135px; }
+
+.page-header {
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #061B28;
+  background-image: url("/img/display.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fcfcfc; }
+  .page-header__top {
+    padding-top: 40px; }
+  .page-header__top-inner {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center; }
+  .page-header__logo {
+    margin-right: 100px; }
+  .page-header__logo-image {
+    display: block; }
+  .page-header__menu {
+    margin-right: auto; }
+  .page-header__menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 30px; }
+  .page-header__menu-link {
+    color: inherit; }
+  .page-header__tel {
+    width: 130px;
+    margin-right: 40px; }
+  .page-header__tel-link {
+    display: block;
+    color: inherit; }
+  .page-header__buttons {
+    display: flex;
+    gap: 30px; }
+  .page-header__buttons-item {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(252, 252, 252, 0.4);
+    border-radius: 50%; }
+  .page-header__content {
+    padding-top: 170px;
+    padding-bottom: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .page-header__content-inner {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; }
+  .page-header__content-title {
+    margin: 0;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 98px;
+    line-height: 145px; }
+  .page-header__content-button {
+    width: 170px;
+    height: 45px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fcfcfc;
+    color: inherit; }
+
+.about__inner {
+  display: grid;
+  grid-template-columns: 41% auto; }
+
+.about__text {
+  max-width: 350px;
+  padding-top: 18px;
+  font-size: 18px;
+  line-height: 150%; }
+
+.about__tour-map {
+  padding-top: 80px;
+  position: relative; }
+
+.about__tour-pin {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 150%;
+  color: #061b28; }
+
+.about__tour-pin::before {
+  content: "";
+  width: 13px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+  background-image: url("/img/pin-map.svg");
+  background-repeat: no-repeat; }
+
+.about--map {
+  background-image: url("/img/tour-map.svg");
+  background-repeat: no-repeat;
+  background-size: 815px;
+  background-position: 568px 88px; }
+
+.popular-tour__inner {
+  padding-top: 105px; }
+
+.popular-tour__title {
+  text-align: center; }
+
+.popular-tour__slider {
+  padding-top: 80px; }
+
+.popular-tour__slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
+  justify-content: center; }
+
+.tour-card {
+  width: 370px;
+  min-height: 326px;
+  padding: 38px 40px 34px;
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%); }
+  .tour-card__header {
+    display: flex;
+    flex-flow: column nowrap; }
+  .tour-card__main-link {
+    background-color: #E6E8EA; }
+  .tour-card__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e6e8ea;
+    z-index: -1; }
+  .tour-card__title {
+    margin: 0;
+    margin-top: 130px;
+    padding: 0;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px; }
+  .tour-card__title-link {
+    color: #061b28; }
+  .tour-card__title-link:hover {
+    transition: 0.2s;
+    color: rgba(6, 27, 40, 0.8); }
+  .tour-card__location {
+    order: -1;
+    font-size: 16px;
+    line-height: 18px; }
+  .tour-card__location-link {
+    display: inline-flex;
+    color: #061b28; }
+  .tour-card__location-link::before {
+    content: "";
+    width: 13px;
+    height: 16px;
+    margin-right: 7px;
+    background-image: url("/img/pin-map.svg");
+    background-repeat: no-repeat; }
+  .tour-card__location-link:hover {
+    transition: 0.2s;
+    color: rgba(6, 27, 40, 0.8); }
+  .tour-card__info {
+    margin-top: 18px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: default; }
+  .tour-card__info-item {
+    padding-right: 10px; }
+  .tour-card__info-item::after {
+    content: "";
+    width: 1px;
+    height: 13px;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #061b28; }
+  .tour-card__info-item:last-child::after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: none;
+    margin-left: 0;
+    background-color: transparent; }
+  .tour-card__footer {
+    margin-top: auto;
+    font-size: 18px;
+    line-height: 21px; }
+  .tour-card__level-link {
+    display: inline-flex;
+    align-items: center;
+    color: #061b28; }
+  .tour-card__level-link:hover {
+    transition: 0.2s;
+    color: rgba(6, 27, 40, 0.8); }
+  .tour-card__level-circle {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    border: 2px solid #fcfcfc;
+    border-radius: 50%; }
+  .tour-card__bookmark {
+    position: absolute;
+    top: 30px;
+    right: 40px; }
+  .tour-card__bookmark-button {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(252, 252, 252, 0.4);
+    cursor: pointer; }
+  .tour-card__bookmark-button:hover {
+    transition: 0.2s;
+    background-color: rgba(252, 252, 252, 0.8); }
 
 /*# sourceMappingURL=style.css.map */
