@@ -68,6 +68,7 @@
   &__location-link:hover {
     transition: 0.2s;
     color: $color-dark-blue-a80;
+    text-decoration: underline;
   }
 
   &__info {
@@ -124,7 +125,7 @@
     width: 15px;
     height: 15px;
     margin-right: 4px;
-    border: 2px solid $color-white;
+    border: 3px solid $color-white;
     border-radius: 50%;
 
   }

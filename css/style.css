@@ -81,7 +81,7 @@ a {
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
-  line-height: 115%; }
+  line-height: 60px; }
 
 .page-body__main {
   margin-top: 135px; }
@@ -156,7 +156,8 @@ a {
     font-style: normal;
     font-weight: 600;
     font-size: 98px;
-    line-height: 145px; }
+    line-height: 145px;
+    cursor: default; }
   .page-header__content-button {
     width: 170px;
     height: 45px;
@@ -204,7 +205,8 @@ a {
   background-position: 568px 88px; }
 
 .popular-tour__inner {
-  padding-top: 105px; }
+  padding-top: 105px;
+  padding-bottom: 205px; }
 
 .popular-tour__title {
   text-align: center; }
@@ -271,7 +273,8 @@ a {
     background-repeat: no-repeat; }
   .tour-card__location-link:hover {
     transition: 0.2s;
-    color: rgba(6, 27, 40, 0.8); }
+    color: rgba(6, 27, 40, 0.8);
+    text-decoration: underline; }
   .tour-card__info {
     margin-top: 18px;
     display: flex;
@@ -311,7 +314,7 @@ a {
     width: 15px;
     height: 15px;
     margin-right: 4px;
-    border: 2px solid #fcfcfc;
+    border: 3px solid #fcfcfc;
     border-radius: 50%; }
   .tour-card__bookmark {
     position: absolute;
@@ -331,5 +334,139 @@ a {
   .tour-card__bookmark-button:hover {
     transition: 0.2s;
     background-color: rgba(252, 252, 252, 0.8); }
+
+.offer-tours {
+  background-color: #061B28;
+  background: linear-gradient(0deg, rgba(6, 27, 40, 0.92), rgba(6, 27, 40, 0.92)), url("/img/offer-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FCFCFC; }
+  .offer-tours__inner {
+    padding: 93px 0 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; }
+  .offer-tours__title {
+    text-align: center;
+    margin-bottom: 14px; }
+  .offer-tours__description {
+    max-width: 370px;
+    margin: 0;
+    margin-bottom: 39px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px; }
+  .offer-tours__table-wrap {
+    width: 830px;
+    margin: 0 auto 50px; }
+  .offer-tours__table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse; }
+  .offer-tours__table-row {
+    border-bottom: 1px solid #45545E; }
+  .offer-tours__table-row--head {
+    color: #A7AEB4; }
+  .offer-tours__table-cell {
+    padding: 17px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px; }
+  .offer-tours__table-cell--head {
+    width: 25%;
+    padding: 8px 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px; }
+  .offer-tours__button {
+    width: 170px;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FCFCFC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; }
+
+.blog {
+  padding-top: 140px; }
+  .blog__inner {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; }
+  .blog__title {
+    margin-bottom: 73px; }
+  .blog__content {
+    display: grid;
+    grid-template-columns: 470px 1fr; }
+  .blog__news {
+    margin-right: 70px;
+    display: flex;
+    flex-flow: column nowrap; }
+  .blog__news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px; }
+  .blog__news-item {
+    padding: 26px 30px 21px;
+    border-bottom: 1px solid #061B28; }
+  .blog__news-link {
+    display: block;
+    color: inherit; }
+  .blog__meta {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7E8386; }
+  .blog__meta--news {
+    margin-bottom: 10px; }
+  .blog__meta--post {
+    margin-bottom: 8px;
+    order: -1; }
+  .blog__news-title {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px; }
+  .blog__news-button {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fcfcfc;
+    background-color: #EC5118;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px; }
+  .blog__post-content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start; }
+  .blog__post-title {
+    margin: 0;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 31px; }
+  .blog__post-image-wrap {
+    width: 700px;
+    height: 287px;
+    margin-bottom: 35px;
+    overflow: hidden;
+    order: -2; }
+  .blog__post-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0 0;
+       object-position: 0 0; }
+  .blog__post-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; }
 
 /*# sourceMappingURL=style.css.map */
